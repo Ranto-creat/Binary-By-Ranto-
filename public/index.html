@@ -7,7 +7,6 @@
     <title>Binary Calculator</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <!-- Add the logo in head section -->
     <link rel="icon" href="logo.png" type="image/png">
 </head>
 
@@ -17,11 +16,11 @@
         <div class="container__Input">
             <div class="container__input">
                 <h2>Number :</h2>
-                <input type="number" class="oneInput">
+                <input type="number" class="oneInput" placeholder="Enter decimal">
             </div>
             <div class="container__input">
                 <h2>Binary :</h2>
-                <input type="text" class="twoInput">
+                <input type="text" class="twoInput" placeholder="Enter binary">
             </div>
         </div>
         <div class="action">
@@ -32,9 +31,11 @@
                 <button>To Binary</button>
             </div>
             <div class="convertInverse">
-                <button>To decimal</button>
+                <button>To Decimal</button>
             </div>
         </div>
+        <!-- Section erreur message-->
+        <div class="error-message" style="color: red; margin-top: 10px;"></div>
     </div>
     <span class="signature">By Ranto Handraina</span>
 </body>
