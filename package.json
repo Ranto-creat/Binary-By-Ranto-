@@ -1,7 +1,7 @@
 {
   "name": "calcule-binaire",
   "version": "1.0.0",
-  "description": "1. L'utilisateur choisir la base (eg : 2, 5 ,10)\r 2. L'utilisateur peuvent choisir si :\r    - Nombre (dec) convertir en base\r    - La base convertir en nombre ou dec",
+  "description": "1. L'utilisateur choisit la base (ex : 2, 5 ,10)\r 2. L'utilisateur peut choisir si :\r    - Nombre (dec) converti en base\r    - La base convertie en nombre ou dec",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
